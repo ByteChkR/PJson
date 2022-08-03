@@ -1,0 +1,8 @@
+{
+	"TestInfo": {
+		"Name": "ToNumber Json Test",
+		"Version": "0.0.0.1"
+	},
+	"StringValue": "1111",
+	"NumberValue": std.Convert.ToNumber(StringValue)
+}

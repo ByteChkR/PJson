@@ -1,0 +1,8 @@
+{
+	"TestInfo": {
+		"Name": "Hidden Variables Json Test",
+		"Version": "0.0.0.1"
+	},
+	~"Test": "Test String",
+	"Value": Test
+}

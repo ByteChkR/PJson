@@ -1,0 +1,8 @@
+{
+	"TestInfo": {
+		"Name": "Array Access Json Test",
+		"Version": "0.0.0.1"
+	},
+	"Names": ["Kevin", "Lea", "Tim"],
+	"Greeting": $"Hello {Names[2]}"
+}

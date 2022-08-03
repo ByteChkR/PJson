@@ -1,0 +1,8 @@
+{
+	"TestInfo": {
+		"Name": "Format String Json Test",
+		"Version": "0.0.0.1"
+	},
+	"Name": "Tim",
+	"Greeting": $"Hello {Name}"
+}

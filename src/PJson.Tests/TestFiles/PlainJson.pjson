@@ -1,0 +1,10 @@
+{
+	"TestInfo": {
+		"Name": "Plain Json Test",
+		"Version": "0.0.0.1"
+	},
+	"TestArray": [
+		"ABC",
+		"DEF"
+	]
+}

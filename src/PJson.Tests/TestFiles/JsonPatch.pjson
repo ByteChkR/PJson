@@ -1,0 +1,19 @@
+{
+	"A": {
+		"Name": "A",
+		"TestA": 2
+	},
+
+	"B": {
+		"Name": "B",
+		"TestA": 5,
+		"TestB": 10
+	},
+
+	//C: { Name: B, TestA: 5 }
+	"C": std.Patch.UpdateExisting(A, B)
+	//D: { Name: B, TestA: 5, TestB: 10 }
+	"D": std.Patch.CreateOrUpdate(A, B)
+	//E: { Name: A, TestA: 2, TestB: 10 }
+	"E": std.Patch.CreateNew(A, B)
+}

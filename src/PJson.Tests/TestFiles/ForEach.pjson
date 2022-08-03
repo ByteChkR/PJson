@@ -1,0 +1,21 @@
+{
+	"TestInfo": {
+		"Name": "Function Json Test",
+		"Version": "0.0.0.1"
+	},
+	~"Types": [
+		"Apples",
+		"Pairs",
+		"Oranges",
+		"Kiwis",
+		"Mangos",
+		"Cherries"
+	],
+	"Elements": [
+		foreach(type in Types)
+		{
+			"Name": type
+			"Type": "Fruit"
+		}
+	]
+}

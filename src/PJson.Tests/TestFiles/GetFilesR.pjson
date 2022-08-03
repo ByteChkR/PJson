@@ -1,0 +1,9 @@
+{
+	"TestInfo": {
+		"Name": "GetFilesR Test",
+		"Version": "0.0.0.1"
+	},
+	"Path": "./",
+	"Pattern": "*",
+	"Files": std.IO.GetFilesR(Path, Pattern)
+}

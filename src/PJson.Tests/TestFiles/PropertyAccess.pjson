@@ -1,0 +1,10 @@
+{
+	"TestInfo": {
+		"Name": "PropertyAccess Json Test",
+		"Version": "0.0.0.1"
+	},
+	"PersonalInfo": {
+		"Name": "Tim"
+	},
+	"Greeting": $"Hello {PersonalInfo.Name}"
+}

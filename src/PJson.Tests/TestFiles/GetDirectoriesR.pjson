@@ -1,0 +1,9 @@
+{
+	"TestInfo": {
+		"Name": "GetDirectoriesR Test",
+		"Version": "0.0.0.1"
+	},
+	"Path": "./",
+	"Pattern": "*",
+	"Files": std.IO.GetDirectoriesR(Path, Pattern)
+}

@@ -1,0 +1,11 @@
+{
+	"TestInfo": {
+		"Name": "Function Json Test",
+		"Version": "0.0.0.1"
+	},
+	"PersonalInfo": {
+		"Name": "Tim"
+	},
+	"GetName": function() => PersonalInfo.Name
+	"Greeting": $"Hello {GetName()}"
+}

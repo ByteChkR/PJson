@@ -1,0 +1,7 @@
+{
+	"TestInfo": {
+		"Name": "IncludeFile Json Test",
+		"Version": "0.0.0.1"
+	},
+	"ArrayAccessTest": &"ArrayAccess.pjson"
+}

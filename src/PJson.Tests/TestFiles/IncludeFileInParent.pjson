@@ -1,0 +1,10 @@
+{
+	"TestInfo": {
+		"Name": "IncludeFileInParent Json Test",
+		"Version": "0.0.0.1"
+	},
+	"ArrayAccessTest": {
+		"Included": true,
+		&&"ArrayAccess.pjson"
+	}
+}

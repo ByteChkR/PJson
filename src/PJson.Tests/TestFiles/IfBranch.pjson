@@ -1,0 +1,24 @@
+{
+	"TestInfo": {
+		"Name": "Function Json Test",
+		"Version": "0.0.0.1"
+	},
+	"Message":	if(std.Object.HasKey(TestInfo, "Name")) then
+					$"Running Test {TestInfo.Name}!"
+				else 
+					"Running Unknown Test!"
+	"ElifBranch": 	if(std.Object.HasKey(TestInfo, "XYZ")) then
+						"Branch Failed"
+					elif(std.Object.HasKey(TestInfo, "Version")) then
+						"Branch Passed"
+					else
+						"Branch Failed"
+	"ElseBranch": 	if(std.Object.HasKey(TestInfo, "XYZ")) then
+						"Branch Failed"
+					elif(std.Object.HasKey(TestInfo, "ABC")) then
+						"Branch Failed"
+					else
+						"Branch Passed"
+	if(std.Object.HasKey(TestInfo, "Version")) then "HasVersion": true
+	else "HasVersion": false
+}
